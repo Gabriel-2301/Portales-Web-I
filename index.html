@@ -5,8 +5,19 @@
         <title>Portales Web I Seccion 1801</title>
     </head>
     <body>
-        <h1>Portales Web I Primer Parcial</h1>
-        <h2>Representacion de Contenido de Texto</h2>
+        <h1 id="idx">Portales Web I Primer Parcial</h1>
+
+        <ul>
+            <li><a href="#ch1">Representacion de Contenido de Texto</a></li>
+            <li><a href="#ch2">Listas Ordenadas y No Ordenadas</a></li>
+            <li><a href="#ch3">Hipervinculos y Navegacion</a></li>
+            <li><a href="#ch4">Multimedia</a></li>
+            <li><a href="#ch5">Tablas</a></li>
+            <li><a href="#ch6">Formularios</a></li>
+            <li><a href="#ch7">Contenedores Semanticos</a></li>
+        </ul>
+
+        <h2 id="ch1">Representacion de Contenido de Texto</h2>
         <h3>Encabezados</h3>
         
         <p>
@@ -26,11 +37,69 @@
 
         <h3>Parrafos</h3>
         <h4>Lorem Ipsum</h4>
-        <h2>Listas Ordenadas y No Ordenadas</h2>
-        <h2>Hipervinculos y Navegacion</h2>
-        <h2>Multimedia</h2>
-        <h2>Tablas</h2>
-        <h2>Formularios</h2>
-        <h2>Contenedores Semanticos</h2>
+        <h3 id="ch2">Listas Ordenadas y No Ordenadas</h3>
+        <h3>Listas No Ordenadas</h3>
+        <p>
+            Son listas que no establece un orden particular, simplemente enuncian
+            elementos comunes de un dominio.
+            <!-- ol order list -->
+            <ul>
+                <li>
+                    <!-- li list item -->
+                     Huevos
+                </li>
+                <li>
+                    Leche
+                </li>
+                <li>
+                    Frijoles
+                </li>
+                <li>
+                    Pan
+                </li>
+                <li>
+                    Cafe
+                </li>
+                <li>
+                    Chucherias
+                    <ul>
+                        <li>Zambos Salsa Verde</li>
+                        <li>Pringles Cebolla</li>
+                        <li>Chips Habaneros</li>
+                        <li>Snickers</li>
+                        <li>Takis Fuego</li>
+                    </ul>
+                </li>
+            </ul>
+        </p>
+        <h3>Lista Ordenadas</h3>
+        <p>
+            Lista ordenadas si establecen un sentido de orden (jerarquia).
+            <ol>
+               <li>Motagua</li>
+               <li>Maraton</li>
+               <li>Olimpia</li>
+               <li>Real España</li>
+               <li>Parrillas One</li> 
+                    <ol>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ol>
+                </li>
+            </ol>
+        </p>
+        <h2 id="ch3">Hipervinculos y Navegacion</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis iste asperiores ipsum, illum dolorem eius aperiam rem iusto cupiditate aliquid placeat, harum facere? Quae itaque ullam facere rerum aut! Fugiat.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa odio veritatis minima magni asperiores dignissimos nemo suscipit sint! Obcaecati voluptas adipisci sed deserunt earum debitis, libero ipsam harum deleniti veniam.</p>
+        <p>Hipervinculos relativos van a documentos dentro del mismo sitio <br/>
+            <a href="relativos.html">Ir a Pagina Relativa</a><br/>
+            <a href="tercerparcial/introjavascript.html">Intro de JavaScript</a>
+        </p>
+        <a href="#idx">Ir al Inicio</a>
+        <h2 id="ch4">Multimedia</h2>
+        <h2 id="ch5">Tablas</h2>
+        <h2 id="ch6">Formularios</h2>
+        <h2 id="ch7">Contenedores Semanticos</h2>
     </body>
 </html>
